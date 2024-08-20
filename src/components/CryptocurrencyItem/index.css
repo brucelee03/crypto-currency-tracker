@@ -1,0 +1,48 @@
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 43px;
+}
+.logo-card {
+  display: flex;
+  gap: 16px;
+}
+.currency-logo {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+.currency-card {
+  display: flex;
+  gap: 50px;
+  text-align: right;
+}
+.crypto-val {
+  color: #ffffff;
+  width: 84px;
+}
+.val {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 577px) {
+  .crypto-item {
+    margin: 0 19px;
+  }
+  .logo-card {
+    gap: 16px;
+  }
+  .currency-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .currency-card {
+    gap: 30px;
+  }
+  .crypto-val {
+    width: 70px;
+  }
+  .val {
+    font-size: 14px;
+  }
+}
